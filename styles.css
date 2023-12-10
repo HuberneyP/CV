@@ -1,0 +1,39 @@
+*{
+    margin: 7;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: rgb(127, 197, 255);
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+
+header h1{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main h2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Datos_Contacto{
+    display: grid;
+    grid-template-columns: 400px auto;
+    
+}
+
+.EXPERIENCIA_LABORAL{
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+.foto_perfil{
+    width: 20%;
+    /*height: 300px;*/
+}
