@@ -1,12 +1,11 @@
 *{
     margin: 7;
-    padding: 0;
+    padding: 10px;
     box-sizing: border-box;
-
 }
 
 header{
-    background-color: rgb(127, 197, 255);
+    background-color: yellow;
     width: 100%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 14px;
@@ -20,6 +19,15 @@ header h1{
 main h2{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+    background-color: yellow;
+    width: 300px;
+}
+main h3{
+    text-align: center;
+}
+
+main p{
+    text-align: justify;
 }
 
 .Datos_Contacto{
@@ -36,4 +44,53 @@ main h2{
 .foto_perfil{
     width: 20%;
     /*height: 300px;*/
+}
+
+.EXPERIENCIA_LABORAL_TABLA{
+    display: grid;
+    grid-template-columns:500px auto;
+    justify-content: center;
+    table{
+        border: 1px solid black;
+    }
+    thead{
+        background: #bbb;
+    }
+    th{
+        padding: 10px 5px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+}
+
+.EXPERIENCIA_LABORAL_LISTA{
+    display: grid;
+    grid-template-columns: 500px auto;
+    justify-content: center;
+    ul li{
+        background-color: #ddd;
+    }
+    
+    ul{
+        background-color: #bbb;
+        width: 300px;
+        list-style-position:inside ;
+    }
+
+}
+
+.EXPERIENCIA_LABORAL_LISTA_NO-{
+    display: grid;
+    grid-template-columns: 500px auto;
+    justify-content: center;
+    ul li{
+        background-color: #ddd;
+    }
+    
+    ul{
+        background-color: #bbb;
+        width: 300px;
+        list-style: none;
+    }
 }
