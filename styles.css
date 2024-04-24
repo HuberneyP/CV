@@ -1,13 +1,14 @@
+/*Pequeño estilo de mi hoja de vida, por defecto la jerrquia de la fuente de la letra: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif*/
 *{
     margin: 7;
     padding: 10px;
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header{
     background-color: yellow;
     width: 100%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 14px;
 }
 
@@ -22,9 +23,7 @@ main h2{
     background-color: yellow;
     width: 300px;
 }
-main h3{
-    text-align: center;
-}
+
 
 main p{
     text-align: justify;
@@ -93,4 +92,26 @@ main p{
         width: 300px;
         list-style: none;
     }
+}
+
+.DATOS_CONTACTO_TABLA{
+    display: grid;
+    grid-template-columns:500px auto;
+    justify-content: center;
+    table{
+        border: 3px solid #ddd;
+        width: 400px;
+    }
+    th{
+        padding: 10px 5px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-bottom: 1px solid black;
+        background-color: #bbb;
+    }
+
+    td{
+        border-bottom: 1px solid black;
+    }
+
 }
